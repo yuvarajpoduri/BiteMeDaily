@@ -4,7 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
 import { Check, X, Sparkles, Brain, ScrollText, Clock, Bookmark, Heart } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/content';
+import API_BASE_URL from '../config';
+
+const API_URL = `${API_BASE_URL}/content`;
 
 const Dashboard = () => {
   const { user } = useAuth();

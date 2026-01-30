@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
-import { ScrollText, Search, ExternalLink, Archive, Heart, Clock, ChevronRight } from 'lucide-react';
+import { ScrollText, Search, Archive, Heart, Clock, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_URL = 'http://localhost:5000/api/content';
+import API_BASE_URL from '../config';
+
+const API_URL = `${API_BASE_URL}/content`;
 
 const History = () => {
   const { user } = useAuth();
