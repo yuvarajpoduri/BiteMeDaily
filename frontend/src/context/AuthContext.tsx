@@ -9,9 +9,11 @@ interface AuthContextType {
   logout: () => void;
 }
 
+import API_BASE_URL from '../config';
+
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = `${API_BASE_URL}/users`;
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<any>(null);
