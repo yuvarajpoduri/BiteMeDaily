@@ -8,6 +8,11 @@ export interface ContentItem {
   difficulty: number;
   imageUrl?: string;
   source?: string;
+  historyMetadata?: {
+    century?: string;
+    region?: string;
+  };
+  createdAt?: string | Date;
 }
 
 export const mockedContent: ContentItem[] = [
@@ -28,6 +33,7 @@ export const mockedContent: ContentItem[] = [
     tags: ['birds', 'military-failures'],
     usefulness: 3,
     difficulty: 1,
+    historyMetadata: { century: '20th Century', region: 'Australia' }
   },
   {
     id: 'concept-1',
@@ -46,6 +52,7 @@ export const mockedContent: ContentItem[] = [
     tags: ['ancient-egypt', 'timing'],
     usefulness: 3,
     difficulty: 1,
+    historyMetadata: { century: 'Ancient', region: 'Egypt' }
   },
   {
     id: 'shortcut-1',
@@ -73,6 +80,7 @@ export const mockedContent: ContentItem[] = [
     tags: ['middle-ages', 'rave'],
     usefulness: 2,
     difficulty: 1,
+    historyMetadata: { century: '16th Century', region: 'Europe' }
   },
   {
     id: 'fact-1',
@@ -100,6 +108,7 @@ export const mockedContent: ContentItem[] = [
     tags: ['technology', 'samurai'],
     usefulness: 3,
     difficulty: 1,
+    historyMetadata: { century: '19th Century', region: 'Global' }
   },
   {
     id: 'tech-2',
@@ -118,5 +127,6 @@ export const mockedContent: ContentItem[] = [
     tags: ['cats', 'plague'],
     usefulness: 2,
     difficulty: 1,
+    historyMetadata: { century: '13th Century', region: 'Europe' }
   }
 ];

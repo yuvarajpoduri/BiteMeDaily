@@ -23,6 +23,10 @@ const ContentSchema = new mongoose.Schema({
   difficulty: { type: Number, min: 1, max: 5, default: 1 },
   imageUrl: { type: String },
   source: { type: String },
+  historyMetadata: {
+    century: { type: String },
+    region: { type: String }
+  }
 }, { timestamps: true });
 
 export default mongoose.models.Content || mongoose.model("Content", ContentSchema);

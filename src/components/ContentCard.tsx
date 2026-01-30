@@ -29,6 +29,7 @@ interface ContentCardProps {
   source?: string;
   isSaved?: boolean;
   createdAt?: string | Date;
+  previewMode?: boolean;
 }
 
 export default function ContentCard({ 
@@ -40,6 +41,7 @@ export default function ContentCard({
   source, 
   isSaved = false, 
   createdAt,
+  previewMode = false,
 }: ContentCardProps) {
   const [saved, setSaved] = useState(isSaved);
   const [expanded, setExpanded] = useState(false); 
