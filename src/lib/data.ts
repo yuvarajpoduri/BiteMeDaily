@@ -2,12 +2,14 @@ export interface ContentItem {
   id: string;
   title: string;
   description: string;
-  category: 'Tech Tips' | 'Concepts Simplified' | 'Shortcuts & Tools' | 'Health & Focus' | 'Useful Facts' | 'Daily Fixes' | 'History Stories';
-  tags: string[];
-  usefulness: number;
-  difficulty: number;
+  category: 'Tech Tips' | 'Concepts Simplified' | 'Shortcuts & Tools' | 'Health & Focus' | 'Useful Facts' | 'Daily Fixes' | 'History Stories' | 'News';
+  tags?: string[];
+  usefulness?: number;
+  difficulty?: number;
   imageUrl?: string;
   source?: string;
+  publishDate?: string;
+  url?: string;
   historyMetadata?: {
     century?: string;
     region?: string;

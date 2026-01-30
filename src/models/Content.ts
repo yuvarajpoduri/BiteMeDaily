@@ -14,7 +14,8 @@ const ContentSchema = new mongoose.Schema({
       'Health & Focus',
       'Useful Facts',
       'Daily Fixes',
-      'History Stories'
+      'History Stories',
+      'News'
     ] 
   },
   tags: [{ type: String }],
@@ -23,6 +24,8 @@ const ContentSchema = new mongoose.Schema({
   difficulty: { type: Number, min: 1, max: 5, default: 1 },
   imageUrl: { type: String },
   source: { type: String },
+  publishDate: { type: String },
+  url: { type: String },
   historyMetadata: {
     century: { type: String },
     region: { type: String }
