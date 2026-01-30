@@ -1,0 +1,50 @@
+{
+  "node": {
+    "6046445567627f4c3832b5a6f39a8c63786b8cac43": {
+      "workers": {
+        "app/(dashboard)/home/page": {
+          "moduleId": 89602,
+          "async": false,
+          "exportedName": "toggleSaveContent",
+          "filename": "src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/home/page": "action-browser"
+      },
+      "exportedName": "toggleSaveContent",
+      "filename": "src/app/actions.ts"
+    },
+    "40dfe17fcc66b10a59d3ef7c077508f3b0c4e88382": {
+      "workers": {
+        "app/(dashboard)/home/page": {
+          "moduleId": 89602,
+          "async": false,
+          "exportedName": "trackCategoryView",
+          "filename": "src/app/actions/tracking.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/home/page": "action-browser"
+      },
+      "exportedName": "trackCategoryView",
+      "filename": "src/app/actions/tracking.ts"
+    },
+    "409f9bcbaf13db0a6ccbeeb7873f49aa514b5d6b90": {
+      "workers": {
+        "app/(dashboard)/home/page": {
+          "moduleId": 89602,
+          "async": false,
+          "exportedName": "markAsSeen",
+          "filename": "src/app/actions/seen.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/home/page": "action-browser"
+      },
+      "exportedName": "markAsSeen",
+      "filename": "src/app/actions/seen.ts"
+    }
+  },
+  "edge": {}
+}

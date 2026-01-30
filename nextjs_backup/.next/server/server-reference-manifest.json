@@ -1,0 +1,129 @@
+{
+  "node": {
+    "6046445567627f4c3832b5a6f39a8c63786b8cac43": {
+      "workers": {
+        "app/(dashboard)/history/page": {
+          "moduleId": 63508,
+          "async": false,
+          "exportedName": "toggleSaveContent",
+          "filename": "src/app/actions.ts"
+        },
+        "app/(dashboard)/home/page": {
+          "moduleId": 89602,
+          "async": false,
+          "exportedName": "toggleSaveContent",
+          "filename": "src/app/actions.ts"
+        },
+        "app/(dashboard)/saved/page": {
+          "moduleId": 70972,
+          "async": false,
+          "exportedName": "toggleSaveContent",
+          "filename": "src/app/actions.ts"
+        },
+        "app/(dashboard)/stories/page": {
+          "moduleId": 77036,
+          "async": false,
+          "exportedName": "toggleSaveContent",
+          "filename": "src/app/actions.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/history/page": "action-browser",
+        "app/(dashboard)/home/page": "action-browser",
+        "app/(dashboard)/saved/page": "action-browser",
+        "app/(dashboard)/stories/page": "action-browser"
+      },
+      "filename": "src/app/actions.ts",
+      "exportedName": "toggleSaveContent"
+    },
+    "40dfe17fcc66b10a59d3ef7c077508f3b0c4e88382": {
+      "workers": {
+        "app/(dashboard)/history/page": {
+          "moduleId": 63508,
+          "async": false,
+          "exportedName": "trackCategoryView",
+          "filename": "src/app/actions/tracking.ts"
+        },
+        "app/(dashboard)/home/page": {
+          "moduleId": 89602,
+          "async": false,
+          "exportedName": "trackCategoryView",
+          "filename": "src/app/actions/tracking.ts"
+        },
+        "app/(dashboard)/saved/page": {
+          "moduleId": 70972,
+          "async": false,
+          "exportedName": "trackCategoryView",
+          "filename": "src/app/actions/tracking.ts"
+        },
+        "app/(dashboard)/stories/page": {
+          "moduleId": 77036,
+          "async": false,
+          "exportedName": "trackCategoryView",
+          "filename": "src/app/actions/tracking.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/history/page": "action-browser",
+        "app/(dashboard)/home/page": "action-browser",
+        "app/(dashboard)/saved/page": "action-browser",
+        "app/(dashboard)/stories/page": "action-browser"
+      },
+      "filename": "src/app/actions/tracking.ts",
+      "exportedName": "trackCategoryView"
+    },
+    "409f9bcbaf13db0a6ccbeeb7873f49aa514b5d6b90": {
+      "workers": {
+        "app/(dashboard)/history/page": {
+          "moduleId": 63508,
+          "async": false,
+          "exportedName": "markAsSeen",
+          "filename": "src/app/actions/seen.ts"
+        },
+        "app/(dashboard)/home/page": {
+          "moduleId": 89602,
+          "async": false,
+          "exportedName": "markAsSeen",
+          "filename": "src/app/actions/seen.ts"
+        },
+        "app/(dashboard)/saved/page": {
+          "moduleId": 70972,
+          "async": false,
+          "exportedName": "markAsSeen",
+          "filename": "src/app/actions/seen.ts"
+        },
+        "app/(dashboard)/stories/page": {
+          "moduleId": 77036,
+          "async": false,
+          "exportedName": "markAsSeen",
+          "filename": "src/app/actions/seen.ts"
+        }
+      },
+      "layer": {
+        "app/(dashboard)/history/page": "action-browser",
+        "app/(dashboard)/home/page": "action-browser",
+        "app/(dashboard)/saved/page": "action-browser",
+        "app/(dashboard)/stories/page": "action-browser"
+      },
+      "filename": "src/app/actions/seen.ts",
+      "exportedName": "markAsSeen"
+    },
+    "60847c9cff6ccd9dd3f26fbc0fe0c01d202fc38f01": {
+      "workers": {
+        "app/signup/page": {
+          "moduleId": 27483,
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "src/actions/auth-actions.ts"
+        }
+      },
+      "layer": {
+        "app/signup/page": "action-browser"
+      },
+      "filename": "src/actions/auth-actions.ts",
+      "exportedName": "registerUser"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "eQGaHTKsQXsZwGpuQnTjJqgsNqf8YPcQbJST7gMWpq4="
+}
